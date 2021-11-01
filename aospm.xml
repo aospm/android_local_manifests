@@ -3,11 +3,10 @@
   <!-- Repositories -->
 
   <remote name="github" fetch="https://github.com/aospm" />
-  <remote name="cirrus_logic" fetch="https://github.com/CirrusLogic" />
 
   <!-- SDM845 generic device repo -->
   <project path="device/generic/sdm845" name="android_device_generic_sdm845" revision="main" remote="github" groups="default" />
 
-  <project path="external/tinyhal" name="tinyhal" revision="master" remote="cirrus_logic" groups="default" />
+  <project path="external/tinyhal" name="tinyhal" revision="master" remote="github" groups="default" />
 
 </manifest>
