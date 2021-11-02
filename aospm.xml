@@ -9,4 +9,6 @@
 
   <project path="external/tinyhal" name="tinyhal" revision="master" remote="github" groups="default" />
 
+  <project path="system/core" name="platform_system_core" remote="github" groups="default" />
+
 </manifest>
