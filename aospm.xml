@@ -9,7 +9,7 @@
 
   <project path="external/tinyhal" name="tinyhal" revision="master" remote="aospm" groups="default" />
 
-  <project path="external/vibrator-ff" name="external_vibrator-ff" revision="master" remote="aospm" groups="default" />
+  <project path="external/vibrator-ff" name="external_vibrator-ff" revision="main" remote="aospm" groups="default" />
 
   <remove-project name="platform/system/core" />
   <project path="system/core" name="platform_system_core" remote="aospm" groups="default" />
