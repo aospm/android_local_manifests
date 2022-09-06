@@ -11,7 +11,4 @@
 
   <project path="external/vibrator-ff" name="external_vibrator-ff" revision="main" remote="aospm" groups="default" />
 
-  <remove-project name="platform/system/media" />
-  <project path="system/media" name="system_media" revision="mixer_paths_device_map" remote="aospm" groups="default" />
-
 </manifest>
